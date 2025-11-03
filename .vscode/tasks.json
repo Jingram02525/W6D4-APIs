@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "Run: api_demo.py", "type": "shell", "command": "python api_demo.py"},
+    {"label": "Run: weather (NYC default)", "type": "shell", "command": "python weather_client.py"},
+    {"label": "Run: weather (custom coords)", "type": "shell", "command": "python weather_client.py --lat 34.05 --lon -118.24"},
+    {"label": "Run: menu", "type": "shell", "command": "python run_menu.py"}
+  ]
+}
